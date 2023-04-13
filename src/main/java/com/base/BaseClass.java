@@ -10,7 +10,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class BaseClass {
-	public WebDriver driver;
+	 public WebDriver driver;
 	@BeforeMethod
 	public void setUp() {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\mhassany\\Downloads\\chromedriver_win32 (2).zip\\chromedriver.exe");
