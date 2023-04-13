@@ -20,6 +20,8 @@ public class DataDrivenTest extends BaseClass{
 		String actualURL = driver.getCurrentUrl();
 		String expectedURL = "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index";
 		Assert.assertEquals(actualURL, expectedURL, "validate your result, if it pass you are good to push your code");
+		String str = "jan is the good guy";
+		
 		
 		
 	}
